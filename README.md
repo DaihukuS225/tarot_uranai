@@ -1,5 +1,5 @@
 # tarot_uranai
-タロット占い-WEBアプリ　自力製作
+2025/7/8 タロット占い-WEBアプリ　自力製作
 
 # 実際に遊べるURL
 [ここをクリック]https://daihukus225.github.io/tarot_uranai/

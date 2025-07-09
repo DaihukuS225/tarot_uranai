@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+#game-board{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#result-area{
+    margin-top: 5px;
+    padding: 20px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 1.8rem;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    color: black;
+    white-space: nowrap;
+}
+
+#result-area h3{
+    text-align: center;
+    padding: 5px 50px;
+    font-size:1.8rem;
+    color: white;
+    white-space: nowrap;
+}
+
+#result-area p{
+    text-align: center;
+    margin-top: 20px;
+    font-size:1.4rem;
+    line-height: 1.6;
+    color: whitesmoke;
+    white-space: normal;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    background-color:blueviolet;
+    border: 2px solid #444;
+    font-size:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;                   /* テキスト選択防止 */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);    
+}
